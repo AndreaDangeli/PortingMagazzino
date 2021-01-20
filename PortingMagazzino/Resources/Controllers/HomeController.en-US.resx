@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AdminLTEDemo" xml:space="preserve">
+    <value>AdminLTE Demo</value>
+  </data>
+  <data name="Annullato" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="AnteprimaProdotti" xml:space="preserve">
+    <value>Products preview</value>
+  </data>
+  <data name="Aperto" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Articolo" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Avviato" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="BonusTemplate" xml:space="preserve">
+    <value>BONUS TEMPLATE</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="CambiaPassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Carichi" xml:space="preserve">
+    <value>Receiving</value>
+  </data>
+  <data name="Carico" xml:space="preserve">
+    <value>Receiving</value>
+  </data>
+  <data name="Causale" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Cerca" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Collassa" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="Comincia" xml:space="preserve">
+    <value>Start creating your amazing application!</value>
+  </data>
+  <data name="Completato" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Configurazione" xml:space="preserve">
+    <value>CONFIGURATION</value>
+  </data>
+  <data name="Contatti" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="CreaCarico" xml:space="preserve">
+    <value>Create Receiving</value>
+  </data>
+  <data name="CreaNuovoOrdineAcquisto" xml:space="preserve">
+    <value>Create New Purchase Order</value>
+  </data>
+  <data name="CreaNuovoOrdineVendita" xml:space="preserve">
+    <value>Create New Sales Order</value>
+  </data>
+  <data name="CreaNuovoScarico" xml:space="preserve">
+    <value>Create New Shipment</value>
+  </data>
+  <data name="CreaScarico" xml:space="preserve">
+    <value>Create Shipment</value>
+  </data>
+  <data name="DataArrivoPrevista" xml:space="preserve">
+    <value>Expected Arrival Date</value>
+  </data>
+  <data name="DataConsegnaPrevista" xml:space="preserve">
+    <value>Delivery Expected Date</value>
+  </data>
+  <data name="DataCreazione" xml:space="preserve">
+    <value>Order Creation Date</value>
+  </data>
+  <data name="DataCreazione2" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="DataCreazioneScarico" xml:space="preserve">
+    <value>Shipment Creation Date</value>
+  </data>
+  <data name="Descrizione" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Destinazione" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Disconnetti" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="EntrataMerci" xml:space="preserve">
+    <value>Goods Receive</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Espandi" xml:space="preserve">
+    <value>More Info</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="Fornitore" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="GestioneMagazzino" xml:space="preserve">
+    <value>WAREHOUSE MANAGEMENT</value>
+  </data>
+  <data name="Gestisci" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IdOrdine" xml:space="preserve">
+    <value>Order Id</value>
+  </data>
+  <data name="InRicezione" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="Magazzino" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="ModificaCarico" xml:space="preserve">
+    <value>Edit Receiving</value>
+  </data>
+  <data name="ModificaScarico" xml:space="preserve">
+    <value>Edit Shipment</value>
+  </data>
+  <data name="MostraTuttiOrdini" xml:space="preserve">
+    <value>View All Orders</value>
+  </data>
+  <data name="MostraTuttiScarichi" xml:space="preserve">
+    <value>View All Shipments</value>
+  </data>
+  <data name="NonAssegnato" xml:space="preserve">
+    <value>Not assigned</value>
+  </data>
+  <data name="NumeroRiferimentoInterno" xml:space="preserve">
+    <value>Reference Number (Internal)</value>
+  </data>
+  <data name="OrdineAcquisto" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="OrdineVendita" xml:space="preserve">
+    <value>Sales Order</value>
+  </data>
+  <data name="OrdiniAcquisto" xml:space="preserve">
+    <value>Purchase Orders</value>
+  </data>
+  <data name="OrdiniAcquistoInArrivo" xml:space="preserve">
+    <value>Purchase Orders Arriving</value>
+  </data>
+  <data name="OrdiniTrasferimento" xml:space="preserve">
+    <value>Transfer Order</value>
+  </data>
+  <data name="OrdiniVendita" xml:space="preserve">
+    <value>Sales Orders</value>
+  </data>
+  <data name="OrdiniVenditaInArrivo" xml:space="preserve">
+    <value>Sales Orders Arriving</value>
+  </data>
+  <data name="PaginaContatti" xml:space="preserve">
+    <value>Your contact page.</value>
+  </data>
+  <data name="PaginaDescrizione" xml:space="preserve">
+    <value>Your application description page.</value>
+  </data>
+  <data name="Prodotti" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="Prodotto" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Qta" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="QtaAcquistate" xml:space="preserve">
+    <value>Qty Purchase</value>
+  </data>
+  <data name="QtaDisponibile" xml:space="preserve">
+    <value>Qty On Hand</value>
+  </data>
+  <data name="QtaOrdinata" xml:space="preserve">
+    <value>Qty Ordered</value>
+  </data>
+  <data name="QtaRicevute" xml:space="preserve">
+    <value>Qty Receiving</value>
+  </data>
+  <data name="QtaSpedite" xml:space="preserve">
+    <value>Qty Shipment</value>
+  </data>
+  <data name="QtaVenduta" xml:space="preserve">
+    <value>Qty Sold</value>
+  </data>
+  <data name="QtaVendute" xml:space="preserve">
+    <value>Qty Sales</value>
+  </data>
+  <data name="Responsabili" xml:space="preserve">
+    <value>Managers Data</value>
+  </data>
+  <data name="Richiesto" xml:space="preserve">
+    <value>Requested</value>
+  </data>
+  <data name="Rimuovi" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RuoliUtente" xml:space="preserve">
+    <value>User Roles</value>
+  </data>
+  <data name="Scarichi" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="ScarichiNonCompletati" xml:space="preserve">
+    <value>Shipping Request</value>
+  </data>
+  <data name="Scarico" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="Scorte" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="ScorteTempoReale" xml:space="preserve">
+    <value>Stock RealTime</value>
+  </data>
+  <data name="Stato" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="TipoProdotto" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="TitleIndex" xml:space="preserve">
+    <value>Home Index</value>
+  </data>
+  <data name="Titolo" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="UbicazioneCliente" xml:space="preserve">
+    <value>Customer Site</value>
+  </data>
+  <data name="UscitaMerci" xml:space="preserve">
+    <value>Goods Issue</value>
+  </data>
+  <data name="VenditeAcquisti" xml:space="preserve">
+    <value>Sales vs Purchase (Last 6 Months)</value>
+  </data>
+  <data name="VisualizzaCarico" xml:space="preserve">
+    <value>View Receiving</value>
+  </data>
+  <data name="VisualizzaProdotti" xml:space="preserve">
+    <value>View Products</value>
+  </data>
+  <data name="VisualizzaScarico" xml:space="preserve">
+    <value>View Shipment</value>
+  </data>
+</root>

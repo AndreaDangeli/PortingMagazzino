@@ -1,0 +1,124 @@
+﻿@inject ITranslate Traduttore
+@*@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager*@
+@inject PortingMagazzino.Servizi.Interfaces.IFaFaIconeManager IconeManager
+@{
+    //ApplicationUser appUser = await UserManager.GetUserAsync(User);
+    string controller = (string)ViewContext.RouteData.Values["controller"];
+    var transMessage = TempData["TransMessage"];
+}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>@Traduttore.TranslateGen("Index", controller) @Traduttore.TranslateGen("Controller", controller)</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <partial name="_AdminlteNetcoreBasicStyles" />
+
+    @RenderSection("Styles", required: false)
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+    <div class="wrapper">
+        @*<partial name="_AdminlteNetcoreMainHeader" model="appUser" />
+        <partial name="_AdminlteNetcoreMainSidebar" model="appUser" />*@
+        <div class="content-wrapper">
+            <section class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h3 class="box-title text-primary"><i class="@IconeManager.GetControllerIcon(controller) text-primary"></i> <span>@Traduttore.TranslateGen("Lista", controller)</span></h3>
+                                <div class="box-tools pull-right">
+                                    <div class="has-feedback">
+                                        <input type="text" id="mainSearch" class="form-control input-sm" placeholder="@Traduttore.TranslateGen("Cerca", controller)...">
+                                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-body no-padding">
+                                <div class="mailbox-controls">
+                                    <div class="text-left">
+                                        <a asp-action="Create" class="btn btn-primary"><i class="@IconeManager.GetControllerIcon(controller)"></i> <span>@Traduttore.TranslateGen("Nuovo", controller) @Traduttore.TranslateGen("Controller", controller)</span></a>
+                                        @if (controller == "PurchaseOrder" || controller == "Receiving" || controller == "SalesOrder" || controller == "Shipment" || controller == "TransferOrder")
+                                        {
+                                            <a asp-action="IndexHistory" class="btn btn-primary"><i class="@IconeManager.GetGenericIcon("Storico")"></i> <span>@Traduttore.TranslateGen("VisualizzaStorico", controller)</span></a>
+                                        }
+                                        <input type="hidden" id="transMessage" value="@transMessage" />
+                                        <button type="button" id="btn-export-excel" class="btn btn-success"><i class="fa fa-file-excel-o">  Excel</i></button>
+                                        <button type="button" id="btn-export-pdf" class="btn btn-danger"><i class="fa fa-file-pdf-o"></i>  Pdf</button>
+                                    </div>
+                                </div>
+                                <div class="table-responsive mailbox-messages">
+                                    @RenderBody()
+                                </div>
+                            </div>
+                            <div class="box-footer no-padding">
+
+                            </div>
+                        </div>
+                        <div class="callout callout-info" style="margin-bottom: 0!important;">
+                            <h4><i class="fa fa-info"></i> @Traduttore.TranslateGen("Info", controller):</h4>
+                            <p>@Traduttore.TranslateGen("InfoIndex", controller)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <partial name="_AdminlteNetcoreFooter" />
+    </div>
+    <partial name="_AdminlteNetcoreBasicScripts" />
+
+    <script>
+        $(document).ready(function () {
+            var transMessage = $("#transMessage").val();
+            if (transMessage) {
+                toastr.success(transMessage);
+            }
+            var mainTable;
+            mainTable = $('.table').DataTable({
+                "id": "IdTable",
+                "lengthChange": false,
+                "info": false,
+                "searching": true,
+                "dom": 'lrtip',
+                "scrollX": false,
+                "buttons": [
+                    @*{
+                        extend: 'csv',
+                        filename: '@controller-csv'
+                    },*@
+                    {
+                        extend: 'pdf',
+                        filename: '@Traduttore.TranslateGen("Controller", controller)-pdf'
+                    },
+                    {
+                        extend: 'excel',
+                        filename: '@Traduttore.TranslateGen("Controller", controller)-excel'
+                    }
+                ]
+            });
+            $('#mainSearch').keyup(function () {
+                mainTable.search($(this).val()).draw();
+            })
+            @*$("#btn-export-csv").on("click", function() {
+                mainTable.button( '.buttons-csv' ).trigger();
+            })*@
+            $("#btn-export-excel").on("click", function() {
+                mainTable.button( '.buttons-excel' ).trigger();
+            })
+            $("#btn-export-pdf").on("click", function() {
+                mainTable.button( '.buttons-pdf' ).trigger();
+            })
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+<script>
+    var urlPingSession = '@Url.Content("~")';
+</script>

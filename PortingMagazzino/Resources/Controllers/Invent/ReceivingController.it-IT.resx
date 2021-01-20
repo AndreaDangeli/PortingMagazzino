@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acquisto" xml:space="preserve">
+    <value>Acquisto</value>
+  </data>
+  <data name="AdminLTEDemo" xml:space="preserve">
+    <value>AdminLTE Demo</value>
+  </data>
+  <data name="AggiungiRigaCarico" xml:space="preserve">
+    <value>Aggiungi Nuova Riga Carico</value>
+  </data>
+  <data name="Attivita" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="BonusTemplate" xml:space="preserve">
+    <value>BONUS TEMPLATE</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="CambiaPassword" xml:space="preserve">
+    <value>Cambia Password</value>
+  </data>
+  <data name="Configurazione" xml:space="preserve">
+    <value>CONFIGURAZIONE</value>
+  </data>
+  <data name="Crea" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="DalFornitore" xml:space="preserve">
+    <value>Dal Fornitore</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DataGSRN" xml:space="preserve">
+    <value>Data GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="DataCarico" xml:space="preserve">
+    <value>Data Carico</value>
+  </data>
+  <data name="DeleteCaricoInfo" xml:space="preserve">
+    <value>L'eliminazione del Carico riporterà lo stato dell'Ordine di Acquisto su [Aperto]</value>
+  </data>
+  <data name="Descrizione" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="Descrizioni" xml:space="preserve">
+    <value>Descrizioni</value>
+  </data>
+  <data name="IndexVisualizzaCarico" xml:space="preserve">
+    <value>Visualizza carico</value>
+  </data>
+  <data name="Disconnetti" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="IndexEliminaCarico" xml:space="preserve">
+    <value>Elimina carico</value>
+  </data>
+  <data name="GestioneMagazzino" xml:space="preserve">
+    <value>GESTIONE MAGAZZINO</value>
+  </data>
+  <data name="GSRN" xml:space="preserve">
+    <value>GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="ListaCarico" xml:space="preserve">
+    <value>Lista Carichi di Magazzino</value>
+  </data>
+  <data name="Magazzino" xml:space="preserve">
+    <value>Magazzino</value>
+  </data>
+  <data name="IndexModificaCarico" xml:space="preserve">
+    <value>Modifica carico</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NumeroGSRN" xml:space="preserve">
+    <value>Numero GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="NumeroOA" xml:space="preserve">
+    <value>Numero Ordine Acquisto</value>
+  </data>
+  <data name="OrdineAcquisto" xml:space="preserve">
+    <value>Ordine di Acquisto</value>
+  </data>
+  <data name="OrdineTrasferimento" xml:space="preserve">
+    <value>Ordine di Trasferimento</value>
+  </data>
+  <data name="OrdiniAcquisto" xml:space="preserve">
+    <value>Ordini di Acquisto</value>
+  </data>
+  <data name="OrdiniTrasferimento" xml:space="preserve">
+    <value>Ordini di Trasferimento</value>
+  </data>
+  <data name="OrdiniVendita" xml:space="preserve">
+    <value>Ordini di Vendita</value>
+  </data>
+  <data name="PaginaStampa" xml:space="preserve">
+    <value>Questa pagina è stata impostata per la stampa. Fai clic sul pulsante di stampa in basso per stampare.</value>
+  </data>
+  <data name="Prodotto" xml:space="preserve">
+    <value>Prodotto</value>
+  </data>
+  <data name="Proprieta" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+  <data name="Qta" xml:space="preserve">
+    <value>Qtà</value>
+  </data>
+  <data name="QtaOrdinata" xml:space="preserve">
+    <value>Qtà Ordinata</value>
+  </data>
+  <data name="QtaDaRicevere" xml:space="preserve">
+    <value>Qtà Da Ricevere</value>
+  </data>
+  <data name="CaricoPosizione" xml:space="preserve">
+    <value>Carico/Posizione</value>
+  </data>
+  <data name="RuoliUtente" xml:space="preserve">
+    <value>Ruoli Utente</value>
+  </data>
+  <data name="Scorte" xml:space="preserve">
+    <value>Giacenza di Magazzino</value>
+  </data>
+  <data name="Scarico" xml:space="preserve">
+    <value>Scarico</value>
+  </data>
+  <data name="Stampa" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="StampaGSRN" xml:space="preserve">
+    <value>Stampa GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="TornaLista" xml:space="preserve">
+    <value>Torna alla Lista</value>
+  </data>
+  <data name="UscitaMerci" xml:space="preserve">
+    <value>Uscita Merci</value>
+  </data>
+  <data name="Vendita" xml:space="preserve">
+    <value>Vendita</value>
+  </data>
+  <data name="CampiEvidenziatiObbligatori" xml:space="preserve">
+    <value>I campi evidenziati in verde indicano i campi obbligatori.</value>
+  </data>
+  <data name="CreazioneGSRN" xml:space="preserve">
+    <value>Creazione GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="EliminazioneGSRN" xml:space="preserve">
+    <value>Eliminazione GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Errore. Per favore contattare l'amministratore di sistema con questo messaggio:</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="ModificaGSRN" xml:space="preserve">
+    <value>Modifica GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="MostraGSRN" xml:space="preserve">
+    <value>Mostra GSRN (Goods Service Receive Note)</value>
+  </data>
+  <data name="RiferimentiDDTOrdine" xml:space="preserve">
+    <value>Riferimenti DDT Ordine</value>
+  </data>
+  <data name="RifBollaArrivo" xml:space="preserve">
+    <value>Rif. Bolla Arrivo</value>
+  </data>
+  <data name="Nuovo" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="Obbligatorio" xml:space="preserve">
+    <value>Obbligatorio</value>
+  </data>
+  <data name="Riuscita" xml:space="preserve">
+    <value>Riuscita</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Annulla" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="ErroreCarico" xml:space="preserve">
+    <value>Errore. Ordine di acquisto già ricevuto.</value>
+  </data>
+  <data name="Cerca" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="QtaRicevuta" xml:space="preserve">
+    <value>Qtà Ricevuta</value>
+  </data>
+  <data name="OrdineEvaso" xml:space="preserve">
+    <value>Ordine Evaso</value>
+  </data>
+  <data name="EvadiOrdine" xml:space="preserve">
+    <value>Evadi Ordine</value>
+  </data>
+  <data name="QtaRicevutaFinora" xml:space="preserve">
+    <value>Qtà Ricevuta Finora</value>
+  </data>
+  <data name="Seleziona" xml:space="preserve">
+    <value>Seleziona</value>
+  </data>
+  <data name="Ubicazione" xml:space="preserve">
+    <value>Ubicazione</value>
+  </data>
+  <data name="SelezionaCausale" xml:space="preserve">
+    <value>Seleziona Causale</value>
+  </data>
+  <data name="Causale" xml:space="preserve">
+    <value>Causale</value>
+  </data>
+  <data name="TipoCausale" xml:space="preserve">
+    <value>Tipo Causale</value>
+  </data>
+  <data name="Completato" xml:space="preserve">
+    <value>Completato</value>
+  </data>
+  <data name="InRicezione" xml:space="preserve">
+    <value>In Ricezione</value>
+  </data>
+  <data name="CompletaRiga" xml:space="preserve">
+    <value>Completa riga</value>
+  </data>
+  <data name="ErroreQtaSuperiore" xml:space="preserve">
+    <value>Il numero di prodotti inserito non deve superare il numero di prodotti ordinati.</value>
+  </data>
+  <data name="MatricolaNumero" xml:space="preserve">
+    <value>Matricola numero</value>
+  </data>
+  <data name="Carico" xml:space="preserve">
+    <value>Carico</value>
+  </data>
+  <data name="Elimina" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="Fornitore" xml:space="preserve">
+    <value>Fornitore</value>
+  </data>
+  <data name="AggiungiProdotto" xml:space="preserve">
+    <value>Aggiungi il prodotto alla lista</value>
+  </data>
+  <data name="Costruttore" xml:space="preserve">
+    <value>Costruttore</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="InserisciMatricole" xml:space="preserve">
+    <value>Inserisci matricole</value>
+  </data>
+  <data name="ErroreInserireMatricole" xml:space="preserve">
+    <value>Riempire tutti i campi prima di proseguire.</value>
+  </data>
+  <data name="RigaCompleta" xml:space="preserve">
+    <value>Riga Completa</value>
+  </data>
+  <data name="ConfermaChiusuraCarico" xml:space="preserve">
+    <value>Confermi la chiusura del carico? Tutte le modifiche verranno salvate.</value>
+  </data>
+  <data name="MagazzinoDestinazione" xml:space="preserve">
+    <value>Magazzino di Destinazione</value>
+  </data>
+  <data name="RiferimentiDDTCliente" xml:space="preserve">
+    <value>Riferimenti DDT Cliente</value>
+  </data>
+  <data name="RiferimentiDDTFornitore" xml:space="preserve">
+    <value>Riferimenti DDT Fornitore</value>
+  </data>
+  <data name="RichiedeMatricola" xml:space="preserve">
+    <value>Richiede Matricola</value>
+  </data>
+  <data name="Matr" xml:space="preserve">
+    <value>Matr.</value>
+  </data>
+  <data name="AnnullaInserimentoMatricole" xml:space="preserve">
+    <value>Annullare inserimento delle matricole? Verranno ripristinati i dati precedenti alla apertura della modale.</value>
+  </data>
+  <data name="ErroreQuantitaMinoreDiZero" xml:space="preserve">
+    <value>Il numero di prodotti inserito deve essere un valore positivo.</value>
+  </data>
+  <data name="IndexRiapriCarico" xml:space="preserve">
+    <value>Riapri carico</value>
+  </data>
+  <data name="EliminareProdottoSelezionato" xml:space="preserve">
+    <value>Eliminare il prodotto selezionato?</value>
+  </data>
+  <data name="ProdottoPresente" xml:space="preserve">
+    <value>Prodotto già presente nella tabella.</value>
+  </data>
+  <data name="CodCostruttore" xml:space="preserve">
+    <value>Codice Costruttore</value>
+  </data>
+  <data name="ConfermaNumeroMatricoleInsuff" xml:space="preserve">
+    <value>Non hai inserito il numero di matricole richiesto. Se salvi ed esci la quantità ricevuta verrà adeguata al numero di matricole inserite.</value>
+  </data>
+  <data name="ConfermaEsciSenzaSalvare" xml:space="preserve">
+    <value>Uscire senza salvare?</value>
+  </data>
+  <data name="ModificaCarico" xml:space="preserve">
+    <value>Modifica carico</value>
+  </data>
+  <data name="InseriteDueMatricoleUguali" xml:space="preserve">
+    <value>Attenzione, hai inserito due o più matricole uguali.</value>
+  </data>
+  <data name="NumeroOrdineTrasferimento" xml:space="preserve">
+    <value>Numero Ordine Trasferimento</value>
+  </data>
+  <data name="AllegatoDDT" xml:space="preserve">
+    <value>Allegato DDT Ingresso</value>
+  </data>
+  <data name="ScaricaAllegato" xml:space="preserve">
+    <value>Scarica Allegato</value>
+  </data>
+  <data name="ScegliFile" xml:space="preserve">
+    <value>Scegli file</value>
+  </data>
+  <data name="AllegatoRimosso" xml:space="preserve">
+    <value>Il file è stato rimosso dalla lista, per eliminarlo completamente dal database bisogna salvare la pagina.</value>
+  </data>
+  <data name="AllegatoSelezionato" xml:space="preserve">
+    <value>Allegato da Caricare</value>
+  </data>
+  <data name="Allegati" xml:space="preserve">
+    <value>Allegati</value>
+  </data>
+  <data name="EliminaAllegato" xml:space="preserve">
+    <value>Elimina Allegato</value>
+  </data>
+  <data name="Scarica" xml:space="preserve">
+    <value>Scarica</value>
+  </data>
+  <data name="ChiudiDocumento" xml:space="preserve">
+    <value>Chiudi Documento</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Controller" xml:space="preserve">
+    <value>Carico</value>
+  </data>
+  <data name="InfoCreate" xml:space="preserve">
+    <value>Con "Carico" si intende il processo di ricevimento e inserimento dei prodotti in un magazzino.</value>
+  </data>
+  <data name="InfoDelete" xml:space="preserve">
+    <value>L'eliminazione del Carico riporterà lo stato dell'Ordine di Acquisto su [Aperto]</value>
+  </data>
+  <data name="InfoDetails" xml:space="preserve">
+    <value>Con "Carico" si intende il processo di ricevimento e inserimento dei prodotti in un magazzino.</value>
+  </data>
+  <data name="InfoEdit" xml:space="preserve">
+    <value>Con "Carico" si intende il processo di ricevimento e inserimento dei prodotti in un magazzino.</value>
+  </data>
+  <data name="InfoIndex" xml:space="preserve">
+    <value>Con "Carico" si intende il processo di ricevimento e inserimento dei prodotti in un magazzino.</value>
+  </data>
+  <data name="Lista" xml:space="preserve">
+    <value>Lista Carichi di Magazzino</value>
+  </data>
+  <data name="Modifica" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="RiferimentiDDT" xml:space="preserve">
+    <value>Riferimenti DDT</value>
+  </data>
+  <data name="Dettagli" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="VerificatoErroreRiprovare" xml:space="preserve">
+    <value>Si è verificato un errore, provare a ripetere l'operazione.</value>
+  </data>
+  <data name="MatricolaPresenteCarico" xml:space="preserve">
+    <value>La matricola è già stata inserita in questo carico.</value>
+  </data>
+  <data name="MatricolaPresenteMagazzino" xml:space="preserve">
+    <value>La matricola è già stata inserita in magazzino da un altro carico.</value>
+  </data>
+  <data name="MatricolaPresenteModale" xml:space="preserve">
+    <value>La matricola è già stata inserita.</value>
+  </data>
+  <data name="ValoreGiaPresente" xml:space="preserve">
+    <value>Il valore inserito è già presente in questo carico.</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="Attenzione" xml:space="preserve">
+    <value>Attenzione!</value>
+  </data>
+  <data name="Chiudi" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="VisualizzaStorico" xml:space="preserve">
+    <value>Visualizza Carichi Completati</value>
+  </data>
+  <data name="VisualizzaRecente" xml:space="preserve">
+    <value>Visualizza Carichi non Completati</value>
+  </data>
+  <data name="IndexStorico" xml:space="preserve">
+    <value>Storico</value>
+  </data>
+  <data name="InfoIndexStorico" xml:space="preserve">
+    <value>I Carichi visualizzati in questa pagina hanno stato [Completato].</value>
+  </data>
+  <data name="Storico" xml:space="preserve">
+    <value>Storico Carichi di Magazzino</value>
+  </data>
+  <data name="NomeFileTroppoLungo" xml:space="preserve">
+    <value>Attenzione, il nome del file è troppo lungo. Dimensione massima 50 caratteri.</value>
+  </data>
+  <data name="OrdineNonCompleto" xml:space="preserve">
+    <value>Non tutti i prodotti sono stati ricevuti. Impossibile chiudere l'ordine.</value>
+  </data>
+  <data name="CategoriaMerci" xml:space="preserve">
+    <value>Categoria Merci</value>
+  </data>
+  <data name="Responsabili" xml:space="preserve">
+    <value>Anagrafica Responsabili</value>
+  </data>
+  <data name="InserireCaratteri" xml:space="preserve">
+    <value>Inserire 3 caratteri</value>
+  </data>
+  <data name="NessunDato" xml:space="preserve">
+    <value>Nessun dato da visualizzare</value>
+  </data>
+  <data name="ContrattiCliente" xml:space="preserve">
+    <value>Contratti Cliente</value>
+  </data>
+  <data name="ProdottoSpostato" xml:space="preserve">
+    <value>Errore, impossibile eliminare il carico perché uno o più prodotti presenti sono già stati trasferiti o scaricati.</value>
+  </data>
+  <data name="EliminareTutteLeMatricole" xml:space="preserve">
+    <value>Vuoi eliminare tutte le matricole inserite in questo prodotto?</value>
+  </data>
+  <data name="InserireTutteLeMatricole" xml:space="preserve">
+    <value>Vuoi inserire tutte le matricole di questo prodotto?</value>
+  </data>
+  <data name="DataDDTFornitore" xml:space="preserve">
+    <value>Data DDT Fornitore</value>
+  </data>
+  <data name="NumeroDDTFornitore" xml:space="preserve">
+    <value>Numero DDT Fornitore</value>
+  </data>
+  <data name="AllegatoDDTFornitore" xml:space="preserve">
+    <value>Allegato DDT Fornitore</value>
+  </data>
+  <data name="ChiudiCarico" xml:space="preserve">
+    <value>Chiudi Carico</value>
+  </data>
+  <data name="Conferma2" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+</root>

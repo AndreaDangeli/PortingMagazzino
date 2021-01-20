@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acquisto" xml:space="preserve">
+    <value>Acquisto</value>
+  </data>
+  <data name="AdminLTEDemo" xml:space="preserve">
+    <value>AdminLTE Demo</value>
+  </data>
+  <data name="AggiungiLista" xml:space="preserve">
+    <value>Aggiungi lista di prodotti all'ordine</value>
+  </data>
+  <data name="AggiungiNuovo" xml:space="preserve">
+    <value>Aggiungi Nuova Riga Ordine Vendita</value>
+  </data>
+  <data name="AggiungiProdotto" xml:space="preserve">
+    <value>Aggiungi il prodotto alla lista</value>
+  </data>
+  <data name="Annulla" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Attivita" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="BonusTemplate" xml:space="preserve">
+    <value>BONUS TEMPLATE</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="CambiaPassword" xml:space="preserve">
+    <value>Cambia Password</value>
+  </data>
+  <data name="CampiEvidenziatiObbligatori" xml:space="preserve">
+    <value>I campi evidenziati in verde indicano i campi obbligatori.</value>
+  </data>
+  <data name="Carico" xml:space="preserve">
+    <value>Carico</value>
+  </data>
+  <data name="CausaleOrdine" xml:space="preserve">
+    <value>Causale Ordine</value>
+  </data>
+  <data name="Cerca" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="ClienteConsegna" xml:space="preserve">
+    <value>Cliente/Consegna</value>
+  </data>
+  <data name="Costruttore" xml:space="preserve">
+    <value>Costruttore</value>
+  </data>
+  <data name="Configurazione" xml:space="preserve">
+    <value>CONFIGURAZIONE</value>
+  </data>
+  <data name="Crea" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="CreazioneOrdine" xml:space="preserve">
+    <value>Creazione Ordine</value>
+  </data>
+  <data name="Da" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DataConsegna" xml:space="preserve">
+    <value>Data Prevista Consegna</value>
+  </data>
+  <data name="DataOV" xml:space="preserve">
+    <value>Data Ordine di Vendita</value>
+  </data>
+  <data name="Descrizione" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+  <data name="Descrizioni" xml:space="preserve">
+    <value>Descrizioni</value>
+  </data>
+  <data name="DettagliImporto" xml:space="preserve">
+    <value>Dettagli Importo</value>
+  </data>
+  <data name="Disconnetti" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="Elimina" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="EliminaInfo" xml:space="preserve">
+    <value>L'ordine con stato [Completato] non può essere eliminato. Si può ripristinare lo stato su [Aperto] eliminando l'ordine di consegna correlato (spedizione)</value>
+  </data>
+  <data name="EliminazioneOrdine" xml:space="preserve">
+    <value>Eliminazione Ordine</value>
+  </data>
+  <data name="EntrataProdotti" xml:space="preserve">
+    <value>Prodotti In</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Errore. Per favore contattare l'amministratore di sistema con questo messaggio:</value>
+  </data>
+  <data name="ErroreModificaCompletato" xml:space="preserve">
+    <value>Errore. Impossibile modificare un ordine [Completato]</value>
+  </data>
+  <data name="ErroreModificaStato" xml:space="preserve">
+    <value>Errore. Impossibile modificare lo stato in [Completato]</value>
+  </data>
+  <data name="ErroreQtaMinore" xml:space="preserve">
+    <value>Errore, il numero di prodotti inserito deve essere maggiore di zero.</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="Fornitore" xml:space="preserve">
+    <value>Fornitore</value>
+  </data>
+  <data name="GestioneMagazzino" xml:space="preserve">
+    <value>GESTIONE MAGAZZINO</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IdProdotto" xml:space="preserve">
+    <value>Id Prodotto</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="IndexInfoVendita" xml:space="preserve">
+    <value>Un Ordine di vendita (OV) è un documento di conferma inviato al cliente prima di consegnare la merce (spedizione). Esistono quattro stati di OV: 1. Bozza (OV non confermato, non pronto per la spedizione), 2. Aperto (OV confermato, pronto per la spedizione), 3. Avviato (OV in spedizione) e 4. Completato (OV chiuso, già spediti i prodotti).</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="ListaOrdini" xml:space="preserve">
+    <value>Lista Ordini di Vendita</value>
+  </data>
+  <data name="Magazzino" xml:space="preserve">
+    <value>Magazzino</value>
+  </data>
+  <data name="Messaggio1" xml:space="preserve">
+    <value>Sei sicuro di volere eliminare?</value>
+  </data>
+  <data name="Messaggio2" xml:space="preserve">
+    <value>I dati cancellati andranno perduti!</value>
+  </data>
+  <data name="Messaggio3" xml:space="preserve">
+    <value>Si, cancellalo!</value>
+  </data>
+  <data name="Modifica" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="ModificaInfo" xml:space="preserve">
+    <value>Gli Ordini di Vendita (OV) hanno tre stati: 1. Bozza (VO non confermato, non pronto per la spedizione), 2. Aperto (OV confermato, pronto per la spedizione) e 3. Completato (OV chiuso, spedito già l'ordine). Cambia lo stato da [Bozza] a [Aperto] per confermare l'ordine. Lo stato [Completato] viene impostato automaticamente quando viene utilizzato l'OV nell'ordine di spedizione/consegna del prodotto.</value>
+  </data>
+  <data name="IndexModificaOrdine" xml:space="preserve">
+    <value>Modifica ordine</value>
+  </data>
+  <data name="NonSalvato" xml:space="preserve">
+    <value>Non Salvato</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Nuovo" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="Obbligatorio" xml:space="preserve">
+    <value>Obbligatorio</value>
+  </data>
+  <data name="OrdineTrasferimento" xml:space="preserve">
+    <value>Ordine di Trasferimento</value>
+  </data>
+  <data name="OrdineVendita" xml:space="preserve">
+    <value>Ordine di Vendita</value>
+  </data>
+  <data name="OrdiniAcquisto" xml:space="preserve">
+    <value>Ordini di Acquisto</value>
+  </data>
+  <data name="OrdiniTrasferimento" xml:space="preserve">
+    <value>Ordini di Trasferimento</value>
+  </data>
+  <data name="OrdiniVendita" xml:space="preserve">
+    <value>Ordini di Vendita</value>
+  </data>
+  <data name="PaginaDaStampare" xml:space="preserve">
+    <value>Questa pagina è stata preparata per la stampa. Fai clic sul pulsante di stampa in basso per stampare.</value>
+  </data>
+  <data name="PersonaInCaricaCliente" xml:space="preserve">
+    <value>Persona in Carica (Cliente)</value>
+  </data>
+  <data name="PersonaInCaricaInterna" xml:space="preserve">
+    <value>Persona in Carica (Interna)</value>
+  </data>
+  <data name="Prodotto" xml:space="preserve">
+    <value>Prodotto</value>
+  </data>
+  <data name="ProdottoPresente" xml:space="preserve">
+    <value>Prodotto già presente nella tabella.</value>
+  </data>
+  <data name="Proprieta" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+  <data name="Qta" xml:space="preserve">
+    <value>Qtà</value>
+  </data>
+  <data name="QtaVenduta" xml:space="preserve">
+    <value>Qtà Venduta</value>
+  </data>
+  <data name="Riuscita" xml:space="preserve">
+    <value>Riuscita</value>
+  </data>
+  <data name="RuoliUtente" xml:space="preserve">
+    <value>Ruoli Utente</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Salvato" xml:space="preserve">
+    <value>Salvato</value>
+  </data>
+  <data name="Scarico" xml:space="preserve">
+    <value>Scarico</value>
+  </data>
+  <data name="Sconto" xml:space="preserve">
+    <value>Sconto</value>
+  </data>
+  <data name="Scorte" xml:space="preserve">
+    <value>Giacenza di Magazzino</value>
+  </data>
+  <data name="SelezionareRiga" xml:space="preserve">
+    <value>Devi seleziona una riga</value>
+  </data>
+  <data name="Stampa" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="StampaOrdine" xml:space="preserve">
+    <value>Stampa Ordine di Vendita</value>
+  </data>
+  <data name="Stato" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Subtotale" xml:space="preserve">
+    <value>Subtotale</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TornaLista" xml:space="preserve">
+    <value>Torna alla Lista</value>
+  </data>
+  <data name="Totale" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="UscitaMerci" xml:space="preserve">
+    <value>Uscita Merci</value>
+  </data>
+  <data name="Vendita" xml:space="preserve">
+    <value>Vendita</value>
+  </data>
+  <data name="IndexAnteprimaProdotti" xml:space="preserve">
+    <value>Anteprima prodotti</value>
+  </data>
+  <data name="IndexCreaScarico" xml:space="preserve">
+    <value>Crea scarico</value>
+  </data>
+  <data name="IndexEliminaOrdine" xml:space="preserve">
+    <value>Elimina ordine</value>
+  </data>
+  <data name="ListaProdotti" xml:space="preserve">
+    <value>Lista Prodotti</value>
+  </data>
+  <data name="IndexVisualizzaOrdine" xml:space="preserve">
+    <value>Visualizza ordine</value>
+  </data>
+  <data name="CodCostruttore" xml:space="preserve">
+    <value>Codice Costruttore</value>
+  </data>
+  <data name="EliminareOrdine" xml:space="preserve">
+    <value>Eliminiare l'Ordine?</value>
+  </data>
+  <data name="EliminareProdottoSelezionato" xml:space="preserve">
+    <value>Eliminare il prodotto selezionato?</value>
+  </data>
+  <data name="Causale" xml:space="preserve">
+    <value>Causale</value>
+  </data>
+  <data name="Controller" xml:space="preserve">
+    <value>Ordine di Vendita</value>
+  </data>
+  <data name="InfoCreate" xml:space="preserve">
+    <value>Un Ordine di Vendita (OV) è un documento di conferma inviato al cliente prima di consegnare la merce (spedizione). Esistono quattro stati di OV: 1. Bozza (OV non confermato, non pronto per la spedizione); 2. Aperto (OV confermato, pronto per la spedizione); 3. Avviato (OV in spedizione); 4. Completato (OV chiuso, già spediti i prodotti).</value>
+  </data>
+  <data name="InfoDelete" xml:space="preserve">
+    <value>L'ordine con stato [Completato] non può essere eliminato. Si può ripristinare lo stato su [Aperto] eliminando l'ordine di consegna correlato (spedizione)</value>
+  </data>
+  <data name="InfoDetails" xml:space="preserve">
+    <value>Un Ordine di Vendita (OV) è un documento di conferma inviato al cliente prima di consegnare la merce (spedizione). Esistono quattro stati di OV: 1. Bozza (OV non confermato, non pronto per la spedizione); 2. Aperto (OV confermato, pronto per la spedizione); 3. Avviato (OV in spedizione); 4. Completato (OV chiuso, già spediti i prodotti).</value>
+  </data>
+  <data name="InfoEdit" xml:space="preserve">
+    <value>Un Ordine di Vendita (OV) è un documento di conferma inviato al cliente prima di consegnare la merce (spedizione). Esistono quattro stati di OV: 1. Bozza (OV non confermato, non pronto per la spedizione); 2. Aperto (OV confermato, pronto per la spedizione); 3. Avviato (OV in spedizione); 4. Completato (OV chiuso, già spediti i prodotti).</value>
+  </data>
+  <data name="InfoIndex" xml:space="preserve">
+    <value>Un Ordine di Vendita (OV) è un documento di conferma inviato al cliente prima di consegnare la merce (spedizione). Esistono quattro stati di OV: 1. Bozza (OV non confermato, non pronto per la spedizione); 2. Aperto (OV confermato, pronto per la spedizione); 3. Avviato (OV in spedizione); 4. Completato (OV chiuso, già spediti i prodotti).</value>
+  </data>
+  <data name="Lista" xml:space="preserve">
+    <value>Lista Ordini di Vendita</value>
+  </data>
+  <data name="Dettagli" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="Ubicazione" xml:space="preserve">
+    <value>Ubicazione</value>
+  </data>
+  <data name="AnteprimaProdotti" xml:space="preserve">
+    <value>Anteprima prodotti</value>
+  </data>
+  <data name="ModificaOrdine" xml:space="preserve">
+    <value>Modifica Ordine</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Codice</value>
+  </data>
+  <data name="VerificatoErroreRiprovare" xml:space="preserve">
+    <value>Si è verificato un errore, provare a ripetere l'operazione.</value>
+  </data>
+  <data name="Attenzione" xml:space="preserve">
+    <value>Attenzione!</value>
+  </data>
+  <data name="Chiudi" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="Seleziona" xml:space="preserve">
+    <value>Seleziona</value>
+  </data>
+  <data name="IndexStorico" xml:space="preserve">
+    <value>Storico</value>
+  </data>
+  <data name="InfoIndexStorico" xml:space="preserve">
+    <value>Gli Ordini di Vendita visualizzati in questa pagina hanno stato [Completato].</value>
+  </data>
+  <data name="Storico" xml:space="preserve">
+    <value>Storico Ordini di Vendita</value>
+  </data>
+  <data name="VisualizzaRecente" xml:space="preserve">
+    <value>Visualizza Ordini non Completati</value>
+  </data>
+  <data name="VisualizzaStorico" xml:space="preserve">
+    <value>Visualizza Ordini Completati</value>
+  </data>
+  <data name="CategoriaMerci" xml:space="preserve">
+    <value>Categoria Merci</value>
+  </data>
+  <data name="Responsabili" xml:space="preserve">
+    <value>Anagrafica Responsabili</value>
+  </data>
+  <data name="InserireCaratteri" xml:space="preserve">
+    <value>Inserire 3 caratteri</value>
+  </data>
+  <data name="NessunDato" xml:space="preserve">
+    <value>Nessun dato da visualizzare</value>
+  </data>
+  <data name="ClienteDestinazione" xml:space="preserve">
+    <value>Cliente-Destinazione</value>
+  </data>
+  <data name="CodiceCommessa" xml:space="preserve">
+    <value>Codice Commessa</value>
+  </data>
+  <data name="QtyShipped" xml:space="preserve">
+    <value>Qta Spedita</value>
+  </data>
+  <data name="Commerciale" xml:space="preserve">
+    <value>Commerciale</value>
+  </data>
+  <data name="NumeroOrdineAcquisto" xml:space="preserve">
+    <value>Numero ordine acquisto</value>
+  </data>
+</root>

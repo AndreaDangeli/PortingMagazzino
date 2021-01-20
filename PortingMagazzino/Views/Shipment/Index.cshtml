@@ -1,0 +1,161 @@
+﻿@model ShipmentViewModel
+
+@inject ITranslate Traduttore
+
+@{
+    //Layout = "~/Views/Shared/_AdminlteNetcoreIndex.cshtml";
+
+    string controller = (string)ViewContext.RouteData.Values["controller"];
+}
+
+<table class="table table-hover table-striped" style="width:100%" id="IndexTable">
+    <thead>
+        <tr>
+            <th class="hidden">
+                @Html.DisplayNameFor(model => model.Shipment.ShipmentId)
+            </th>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shipment.NumeroDdt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shipment.ShipmentDate)
+            </th>
+            @*<th class="hidden">
+                    @Html.DisplayNameFor(model => model.Shipment.expeditionType)
+                </th>
+                <th class="hidden">
+                    @Html.DisplayNameFor(model => model.Shipment.expeditionMode)
+                </th>
+                <th class="hidden">
+                    @Html.DisplayNameFor(model => model.Shipment.salesOrder)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Shipment.WarehouseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shipment.CausaleMovimentiMagazzino)
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Shipment.salesOrder.salesOrderNumber)*@
+            </th>
+            <th>
+                @*@Traduttore.TranslateGen("Fornitore", controller)*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrdineDiVendita.SalesOrderStatus)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Shipments)
+        {
+            <tr>
+                <th class="hidden">
+                    @item.ShipmentId
+                </th>
+                <td>
+                    <div class="tools">
+                        @if (!item.Completato)
+                        {
+                            if (item.WarehouseId == "NonAssegnato")
+                            {
+                                <a asp-action="CreaScaricoDaTesis" asp-route-id="@item.ShipmentId" class="btn btn-primary btn-xs" title="@Traduttore.TranslateGen("IndexCreaScarico", controller)"><i class="fa fa-plus-circle"></i></a>
+                            }
+                            else
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.ShipmentId" class="btn btn-primary btn-xs" title="@Traduttore.TranslateGen("IndexModificaScarico", controller)"><i class="fa fa-pencil"></i></a>
+                            }
+                        }
+                        else
+                        {
+                            <a asp-action="Reopen" asp-route-id="@item.ShipmentId" class="btn btn-primary btn-xs" title="@Traduttore.TranslateGen("IndexRiapriScarico", controller)"><i class="fa fa-refresh"></i></a>
+                        }
+                        <a asp-action="Details" asp-route-id="@item.ShipmentId" class="btn btn-primary btn-xs" title="@Traduttore.TranslateGen("IndexVisualizzaScarico", controller)"><i class="fa fa-list"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.ShipmentId" class="btn btn-danger btn-xs" title="@Traduttore.TranslateGen("IndexEliminaScarico", controller)"><i class="fa fa-trash"></i></a>
+                    </div>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumeroDdt)
+                </td>
+                <td>
+                    <span class="hidden">@item.ShipmentDate.ToString("yyyyMMdd")</span>
+                    @item.ShipmentDate.ToString("dd-MM-yyyy")
+                </td>
+                @*<td class="hidden">
+                        @Html.DisplayFor(modelItem => item.expeditionType)
+                    </td>
+                    <td class="hidden">
+                        @Html.DisplayFor(modelItem => item.expeditionMode)
+                    </td>
+                    <td class="hidden">
+                        @Html.DisplayFor(modelItem => item.salesOrder.salesOrderNumber)
+                    </td>*@
+                <!--Distinzione del caso di Scarico creato in magazzino da quello creato automaticamente dalla procedura su Tesis. Quello creato automaticamente non ha il magazzino assegnato-->
+                @if (item.WarehouseId == "NonAssegnato")
+                {
+                    <td>
+                        @Traduttore.TranslateGen("NonAssegnato", controller)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.Warehouse.Where(x => x.WarehouseId.Equals(item.WarehouseId)).SingleOrDefault().WarehouseName)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.CausaleMovimentiMagazzino.Descrizione)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.salesOrder.salesOrderNumber)*@
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => Model.VW_Ubicazioni.Where(x => x.IdUbicazione.Equals(item.salesOrder.IdUbicazione)).SingleOrDefault().RagioneSocialeCompletaUbicazione)*@
+                </td>
+                <td>
+                    @if (item.Annullato)
+                    {
+                        <span class="label label-danger">
+                            @Traduttore.TranslateGen("Annullato", controller)
+                        </span>
+                    }
+                    else if (item.Completato)
+                    {
+                        <span class="label label-success">
+                            @Traduttore.TranslateGen("Completato", controller)
+                        </span>
+                    }
+                    else if (item.IdEvento != 0)
+                    {
+                        <span class="label label-warning">
+                            @Traduttore.TranslateGen("Richiesto", controller)
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="label label-primary">
+                            @Traduttore.TranslateGen("Avviato", controller)
+                        </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var table = $('#IndexTable').DataTable()
+                .order([3, 'asc'])
+                .draw();
+
+            $('#IndexTable tbody').on('dblclick', 'tr', function () {
+                var data = table.row(this).data();
+
+                window.location.href = '@Url.Action("Edit", "Shipment")' + '/' + data[0];
+            });
+        });
+    </script>
+}

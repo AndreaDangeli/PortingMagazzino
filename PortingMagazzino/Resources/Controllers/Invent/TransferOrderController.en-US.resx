@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminLTEDemo" xml:space="preserve">
+    <value>AdminLTE Demo</value>
+  </data>
+  <data name="Annulla" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Attivita" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="BonusTemplate" xml:space="preserve">
+    <value>BONUS TEMPLATE</value>
+  </data>
+  <data name="CambiaPassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="CampiEvidenziatiObbligatori" xml:space="preserve">
+    <value>Fields with green highlight indicate mandatory fields.</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Configurazione" xml:space="preserve">
+    <value>CONFIGURATION</value>
+  </data>
+  <data name="Crea" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="CreazioneTrasferimento" xml:space="preserve">
+    <value>Create Transfer</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DataOT" xml:space="preserve">
+    <value>TO Date</value>
+  </data>
+  <data name="DataOV" xml:space="preserve">
+    <value>SO Date</value>
+  </data>
+  <data name="Descrizione" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Descrizioni" xml:space="preserve">
+    <value>Descriptions</value>
+  </data>
+  <data name="Dettagli" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Disconnetti" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="Elimina" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EliminazioneTrasferimento" xml:space="preserve">
+    <value>Delete Transfer</value>
+  </data>
+  <data name="EntrataProdotti" xml:space="preserve">
+    <value>Product In</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Error. Calm Down ^_^ and please contact your SysAdmin with this message:</value>
+  </data>
+  <data name="FatturaCliente" xml:space="preserve">
+    <value>Invoice for Customer</value>
+  </data>
+  <data name="GestioneMagazzino" xml:space="preserve">
+    <value>WAREHOUSE MANAGEMENT</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Magazzino" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="CodCostruttore" xml:space="preserve">
+    <value>Manufacturer Code</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="QtaTrasferire" xml:space="preserve">
+    <value>Qty to Transfer</value>
+  </data>
+  <data name="Modifica" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ModificaTrasferimento" xml:space="preserve">
+    <value>Edit Transfer</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Nuovo" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Obbligatorio" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="OrdineConsegna" xml:space="preserve">
+    <value>Delivery Order</value>
+  </data>
+  <data name="OrdineTrasferimento" xml:space="preserve">
+    <value>Transfer Order</value>
+  </data>
+  <data name="OrdineVendita" xml:space="preserve">
+    <value>Sales Order</value>
+  </data>
+  <data name="OrdiniAcquisto" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="OrdiniTrasferimento" xml:space="preserve">
+    <value>Transfer Order</value>
+  </data>
+  <data name="OrdiniVendita" xml:space="preserve">
+    <value>Sales Order</value>
+  </data>
+  <data name="Prodotto" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Proprieta" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="Qta" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="QtaOrdine" xml:space="preserve">
+    <value>Qty Order</value>
+  </data>
+  <data name="QtaScarico" xml:space="preserve">
+    <value>Qty Shipment</value>
+  </data>
+  <data name="QtaTrasferimento" xml:space="preserve">
+    <value>Qty Transferred</value>
+  </data>
+  <data name="Carico" xml:space="preserve">
+    <value>Receiving</value>
+  </data>
+  <data name="Riuscita" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="RuoliUtente" xml:space="preserve">
+    <value>User Roles</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Scorte" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Scarico" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="TornaLista" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="Vendita" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="Fornitore" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="Cerca" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Causale" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="AggiungiProdotto" xml:space="preserve">
+    <value>Add the product to the list</value>
+  </data>
+  <data name="EliminareProdottoSelezionato" xml:space="preserve">
+    <value>Do you want to delete the selected product?</value>
+  </data>
+  <data name="ErroreQtaMinore" xml:space="preserve">
+    <value>The quantity entered must be greater than zero.</value>
+  </data>
+  <data name="ProdottoPresente" xml:space="preserve">
+    <value>This product is already inserted in the table.</value>
+  </data>
+  <data name="IndexAnteprimaProdotti" xml:space="preserve">
+    <value>Products preview</value>
+  </data>
+  <data name="IndexEliminaOrdine" xml:space="preserve">
+    <value>Delete order</value>
+  </data>
+  <data name="IndexModificaOrdine" xml:space="preserve">
+    <value>Edit order</value>
+  </data>
+  <data name="IndexVisualizzaOrdine" xml:space="preserve">
+    <value>Show order</value>
+  </data>
+  <data name="ListaProdotti" xml:space="preserve">
+    <value>Products List</value>
+  </data>
+  <data name="Controller" xml:space="preserve">
+    <value>Transfer Order</value>
+  </data>
+  <data name="InfoCreate" xml:space="preserve">
+    <value>The Transfer Order is a process of moving goods from one warehouse to another.</value>
+  </data>
+  <data name="InfoDelete" xml:space="preserve">
+    <value>The Transfer Order is a process of moving goods from one warehouse to another.</value>
+  </data>
+  <data name="InfoDetails" xml:space="preserve">
+    <value>The Transfer Order is a process of moving goods from one warehouse to another.</value>
+  </data>
+  <data name="InfoEdit" xml:space="preserve">
+    <value>The Transfer Order is a process of moving goods from one warehouse to another. If the products included in this order have already been handled in subsequent orders, the order cannot be canceled.</value>
+  </data>
+  <data name="InfoIndex" xml:space="preserve">
+    <value>The Transfer Order is a process of moving goods from one warehouse to another.</value>
+  </data>
+  <data name="Lista" xml:space="preserve">
+    <value>Transfer Orders List</value>
+  </data>
+  <data name="AnteprimaProdotti" xml:space="preserve">
+    <value>Products preview</value>
+  </data>
+  <data name="Seleziona" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="VerificatoErroreRiprovare" xml:space="preserve">
+    <value>An error has occurred, please try again.</value>
+  </data>
+  <data name="Attenzione" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="Chiudi" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="IndexStorico" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="InfoIndexStorico" xml:space="preserve">
+    <value>The Transfer Orders displayed on this page were received more than a week ago.</value>
+  </data>
+  <data name="Storico" xml:space="preserve">
+    <value>History Transfer Orders</value>
+  </data>
+  <data name="VisualizzaRecente" xml:space="preserve">
+    <value>View Unfinished Orders</value>
+  </data>
+  <data name="VisualizzaStorico" xml:space="preserve">
+    <value>View Completed Orders</value>
+  </data>
+  <data name="CategoriaMerci" xml:space="preserve">
+    <value>Goods Category</value>
+  </data>
+  <data name="Responsabili" xml:space="preserve">
+    <value>Managers Data</value>
+  </data>
+  <data name="InserireCaratteri" xml:space="preserve">
+    <value>Enter three letters</value>
+  </data>
+  <data name="NessunDato" xml:space="preserve">
+    <value>No data to display</value>
+  </data>
+  <data name="InserisciMatricole" xml:space="preserve">
+    <value>Add serial numbers</value>
+  </data>
+  <data name="ConfermaEsciSenzaSalvare" xml:space="preserve">
+    <value>Exit without saving?</value>
+  </data>
+  <data name="Matr" xml:space="preserve">
+    <value>SN</value>
+  </data>
+  <data name="MatricolaNonPresente" xml:space="preserve">
+    <value>Serial number not in stock.</value>
+  </data>
+  <data name="MatricolaPresenteModale" xml:space="preserve">
+    <value>The serial number has already been selected.</value>
+  </data>
+  <data name="MatricolaPresenteOrdine" xml:space="preserve">
+    <value>The serial number has already been selected in this order.</value>
+  </data>
+  <data name="NonHaiInseritoMatricole" xml:space="preserve">
+    <value>You have not inserted serial numbers. If you exit now, the product will be removed from the table. Confirm?</value>
+  </data>
+  <data name="ImpossibileEliminare" xml:space="preserve">
+    <value>Attention, the selected order contains products that have already been handled (transferred to another warehouse or downloaded), it is impossible to delete them.</value>
+  </data>
+  <data name="ControllaDisponibilita" xml:space="preserve">
+    <value>Check availability</value>
+  </data>
+  <data name="QtaDisponibile" xml:space="preserve">
+    <value>Qty available</value>
+  </data>
+  <data name="ProdottoSenzaGiacenza" xml:space="preserve">
+    <value>The selected product is not present in any warehouse.</value>
+  </data>
+  <data name="VisualizzaMatricole" xml:space="preserve">
+    <value>Show serial numbers</value>
+  </data>
+  <data name="SelezionaMatricole" xml:space="preserve">
+    <value>Select serial numbers</value>
+  </data>
+  <data name="GiacenzaNegativa" xml:space="preserve">
+    <value>Attention, the product in question is not present in sufficient quantities in this warehouse. If you continue with this operation, negative inventory will be inserted for this product.</value>
+  </data>
+</root>

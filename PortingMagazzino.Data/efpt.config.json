@@ -1,0 +1,41 @@
+﻿{
+   "ContextClassName": "TesisContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "TesisModels",
+   "ProjectRootNamespace": "PortingMagazzino.TesisData",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Clienti]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fornitori]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TabCostruttore]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TabTrasportatori]",
+         "ObjectType": 0
+      }
+   ],
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false
+}

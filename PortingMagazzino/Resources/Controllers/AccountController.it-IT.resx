@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccedereConCodiceRecupero" xml:space="preserve">
+    <value>accedere con un codice di recupero</value>
+  </data>
+  <data name="Accedi" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="AccediComeAltroUtente" xml:space="preserve">
+    <value>Accedi con un altro utente.</value>
+  </data>
+  <data name="AccediCredenziali" xml:space="preserve">
+    <value>Accedi con le tue credenziali</value>
+  </data>
+  <data name="AccediFacebook" xml:space="preserve">
+    <value>Accedi tramite Facebook</value>
+  </data>
+  <data name="AccediGoogle" xml:space="preserve">
+    <value>Accedi tramite Google+</value>
+  </data>
+  <data name="AccessoNegato" xml:space="preserve">
+    <value>Non hai accesso a questa risorsa</value>
+  </data>
+  <data name="AccessoNegatoPasswordInScadenza" xml:space="preserve">
+    <value>Accesso Negato, la password sta per scadere.</value>
+  </data>
+  <data name="AccessoNegatoPasswordScaduta" xml:space="preserve">
+    <value>Accesso Negato, la password è scaduta.</value>
+  </data>
+  <data name="AccessoNegatoUtenteTesis" xml:space="preserve">
+    <value>Accesso Negato, utente Tesis non riconosciuto.</value>
+  </data>
+  <data name="AccessoProtetttoCodiceAut" xml:space="preserve">
+    <value>Il tuo accesso è protetto con un'app di autenticazione. Inserisci il tuo codice di autenticazione di seguito</value>
+  </data>
+  <data name="AccettoI" xml:space="preserve">
+    <value>Accetto i</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>account</value>
+  </data>
+  <data name="AccountBloccato" xml:space="preserve">
+    <value>Questo account è stato bloccato, riprovare più tardi</value>
+  </data>
+  <data name="AssociaIlTuo" xml:space="preserve">
+    <value>Associa il tuo</value>
+  </data>
+  <data name="AutDueFattori" xml:space="preserve">
+    <value>Autenticazione a Due Fattori</value>
+  </data>
+  <data name="AutenticatoConSuccesso" xml:space="preserve">
+    <value>Ti sei autenticato con successo con</value>
+  </data>
+  <data name="CambiaPassword" xml:space="preserve">
+    <value>Cambia Password</value>
+  </data>
+  <data name="ChiusoFuori" xml:space="preserve">
+    <value>Chiuso fuori</value>
+  </data>
+  <data name="CliccaQuiAccedere" xml:space="preserve">
+    <value>clicca qui per accedere</value>
+  </data>
+  <data name="CodiceAutenticatoreNonValido" xml:space="preserve">
+    <value>Codice autenticatore non valido</value>
+  </data>
+  <data name="CodiceRecuperoNonValido" xml:space="preserve">
+    <value>Codice di recupero non valido</value>
+  </data>
+  <data name="ConfermaEmail" xml:space="preserve">
+    <value>Conferma email</value>
+  </data>
+  <data name="ConfermaPasswordDimenticata" xml:space="preserve">
+    <value>Conferma password dimenticata</value>
+  </data>
+  <data name="ConfermaResetPassword" xml:space="preserve">
+    <value>Conferma reset password</value>
+  </data>
+  <data name="ControllaEmailResetPassword" xml:space="preserve">
+    <value>Controlla la tua email per reimpostare la password</value>
+  </data>
+  <data name="Disconnesso" xml:space="preserve">
+    <value>Disconnesso</value>
+  </data>
+  <data name="DisconnessoCorrettamente" xml:space="preserve">
+    <value>Ti sei disconnesso correttamente</value>
+  </data>
+  <data name="Disconnetti" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="EmailConfermaInviata" xml:space="preserve">
+    <value>Abbiamo inviato la conferma al tuo indirizzo email registrato</value>
+  </data>
+  <data name="GrazieConfermaEmail" xml:space="preserve">
+    <value>Grazie per aver confermato l'email</value>
+  </data>
+  <data name="HoDimenticatoPassword" xml:space="preserve">
+    <value>Ho dimenticato la password</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="InserisciEmailRegistra" xml:space="preserve">
+    <value>Inserisci un indirizzo e-mail per questo sito e fai clic sul pulsante Registra per terminare l'accesso</value>
+  </data>
+  <data name="Inventario" xml:space="preserve">
+    <value>INVENTARIO</value>
+  </data>
+  <data name="MancaAccessoDispositivoAut" xml:space="preserve">
+    <value>Non hai accesso al tuo dispositivo di autenticazione? Puoi</value>
+  </data>
+  <data name="NomeUtente" xml:space="preserve">
+    <value>Nome Utente</value>
+  </data>
+  <data name="NotificaEmailConferma" xml:space="preserve">
+    <value>Notifica email di conferma</value>
+  </data>
+  <data name="Oppure" xml:space="preserve">
+    <value>OPPURE</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordDimenticata" xml:space="preserve">
+    <value>Password Dimenticata</value>
+  </data>
+  <data name="PasswordDimenticata2" xml:space="preserve">
+    <value>Password dimenticata?</value>
+  </data>
+  <data name="PasswordResettata" xml:space="preserve">
+    <value>La tua password è stata resettata. Per favore</value>
+  </data>
+  <data name="PasswordScaduta" xml:space="preserve">
+    <value>Password Scaduta</value>
+  </data>
+  <data name="PasswordStaPerScadere" xml:space="preserve">
+    <value>La password sta per scadere.</value>
+  </data>
+  <data name="Registra" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="RegistraNuovoMembro" xml:space="preserve">
+    <value>Registra un nuovo membro</value>
+  </data>
+  <data name="ReinserisciNuovaPassword" xml:space="preserve">
+    <value>Ripeti password</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Resetta" xml:space="preserve">
+    <value>Resetta</value>
+  </data>
+  <data name="ResettaPassword" xml:space="preserve">
+    <value>Resetta Password</value>
+  </data>
+  <data name="RichiestaAccessoConCodiceRecupero" xml:space="preserve">
+    <value>Hai richiesto di accedere con un codice di recupero. Questo accesso non verrà ricordato fino a quando non fornirai un codice dell'app di autenticazione al momento dell'accesso o disabiliterai 2FA e accederai di nuovo</value>
+  </data>
+  <data name="SeguiIstruzioniAttivazione" xml:space="preserve">
+    <value>Seguire le istruzioni contenute nalla email per l'attivazione dell'account</value>
+  </data>
+  <data name="TentativoLoginInvalido" xml:space="preserve">
+    <value>Tentativo di login invalido</value>
+  </data>
+  <data name="Termini" xml:space="preserve">
+    <value>termini</value>
+  </data>
+  <data name="TiSeiDisconnesso" xml:space="preserve">
+    <value>Disconnesso con Successo</value>
+  </data>
+  <data name="VerificaCodiceRecupero" xml:space="preserve">
+    <value>Verifica del Codice di Recupero</value>
+  </data>
+</root>
